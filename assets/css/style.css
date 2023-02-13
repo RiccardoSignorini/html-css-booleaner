@@ -8,3 +8,17 @@ header{
     width: 200px;
 }
 
+.immagine-fondo-prima{
+    background-image: url(../img/monitor.jpg);
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+}
+
+.immagine-fondo-seconda{
+    background-image: url(../img/graph.jpg);
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+}
+
