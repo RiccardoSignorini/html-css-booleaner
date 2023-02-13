@@ -1,3 +1,9 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 header{
     background-image: url(../img/pattern.png);
@@ -8,6 +14,30 @@ header{
     width: 200px;
 }
 
+#colore-azzurro{
+    color: aqua;
+}
+
+p{
+    width: 1058px;
+    padding: 20px;
+}
+
+ul{
+    padding: 20px;
+}
+
+/* TABELLA */
+th{
+    background-color: aqua;
+}
+
+th, td{
+    width: 350px;
+    height: 20px;
+}
+
+/* FOOTER */
 .immagine-fondo-prima{
     background-image: url(../img/monitor.jpg);
     width: 300px;
@@ -22,3 +52,6 @@ header{
     margin: 5px;
 }
 
+.colore-bianco{
+    color: white;
+}
