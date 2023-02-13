@@ -25,16 +25,25 @@ p{
 
 ul{
     padding: 20px;
+    padding-left: 40px;
 }
 
 /* TABELLA */
+table{
+    padding: 20px;
+}
+
 th{
     background-color: aqua;
 }
 
 th, td{
-    width: 350px;
+    width: 330px;
     height: 20px;
+}
+
+.colore-azzurrino{
+    background-color: aquamarine;
 }
 
 /* FOOTER */
@@ -43,6 +52,7 @@ th, td{
     width: 300px;
     height: 200px;
     margin: 5px;
+    padding-left: 20px;
 }
 
 .immagine-fondo-seconda{
@@ -50,6 +60,7 @@ th, td{
     width: 300px;
     height: 200px;
     margin: 5px;
+    padding-left: 20px;
 }
 
 .colore-bianco{
