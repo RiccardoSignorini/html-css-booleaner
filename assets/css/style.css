@@ -5,64 +5,75 @@
     box-sizing: border-box;
 }
 
+li{
+    margin-left: 1em;
+}
+
+table{
+    border-spacing: 0;
+}
+
+/* TESTA PAGINA */
 header{
-    background-image: url(../img/pattern.png);
-    background-color: cornflowerblue;
+    background-image: url('../img/pattern.png');
+    background-color: #5ea1ff;
+    background-size: 20%;
 }
 
-#ridimensionamento{
-    width: 200px;
-}
-
-#colore-azzurro{
+#color{
     color: aqua;
 }
 
-p{
-    width: 1058px;
-    padding: 20px;
-}
-
-ul{
-    padding: 20px;
-    padding-left: 40px;
+section{
+    margin: 30px 0;
 }
 
 /* TABELLA */
-table{
-    padding: 20px;
+thead{
+    background-color: #5ea1ff;
+    color: #ffffff;
 }
 
-th{
-    background-color: aqua;
+td{
+    padding: 10px;
 }
 
-th, td{
-    width: 330px;
-    height: 20px;
+.parte-t1,
+.parte-t3{
+    background-color: #5effff;
 }
 
-.colore-azzurrino{
-    background-color: aquamarine;
+
+.larghezza-t1,
+.larghezza-t2{
+    width: 30%;
 }
 
 /* FOOTER */
+h4{
+    margin-bottom: 10px;
+}
+
 .immagine-fondo-prima{
     background-image: url(../img/monitor.jpg);
     width: 300px;
     height: 200px;
-    margin: 5px;
-    padding-left: 20px;
+    margin-bottom: 10px;
 }
 
 .immagine-fondo-seconda{
     background-image: url(../img/graph.jpg);
     width: 300px;
     height: 200px;
-    margin: 5px;
-    padding-left: 20px;
+    margin-bottom: 10px;
 }
 
 .colore-bianco{
     color: white;
+}
+
+/* BONUS */
+.centratura{
+    width: 80%;
+    margin: auto;
 }
